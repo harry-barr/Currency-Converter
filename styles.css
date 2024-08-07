@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(30, 30, 30);
+  color: #cfb53b;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px;
+}
+
+hr {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #cfb53b;
+  height: 3px;
+  border: none;
+  border-radius: 2px;
+}
+
+.amount-container {
+  margin: 20px;
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.currency-to-convert-btn {
+  height: 70px;
+  width: 70px;
+  border: 3px solid #cfb53b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.currency-input {
+  background-color: #fff;
+  height: 70px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: larger;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.currency-input:hover {
+  border: 3px solid #cfb53b;
+}
+
+.currency-input::-webkit-outer-spin-button,
+.currency-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.convert-btn {
+  cursor: pointer;
+  border: none;
+}
+
+.converted-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 60px;
+}
+
+.currency-to-convert-to-btn {
+  height: 70px;
+  width: 70px;
+  border: 3px solid #cfb53b;
+  border-radius: 50%;
+  cursor: pointer;
+}

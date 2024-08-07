@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="utf-8" />
+    <meta lang="english" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Global Currency Converter</h1>
+      <hr></hr>
+    </header>
+    <main>
+      <section id="amount">
+        <div class="amount-container">
+          <button class="currency-to-convert-btn">
+            <i class="fa-solid fa-sterling-sign fa-3x" title="pounds"></i>
+          </button>
+          <label for="number-input"
+            ><input type="number" placeholder="Amount" required class="currency-input"
+          /></label>
+        </div>
+      </section>
+
+      <section id="converter-button">
+        <div class="icon-container">
+         <button class="convert-btn"><i class="fa-solid fa-arrow-right-arrow-left fa-5x"></i></button>
+        </div>
+      </section>
+
+      <section id="converted-currency">
+        <div class="converted-container">
+            <label for="number-input"
+            ><input type="number" placeholder="Result" required class="currency-input"
+          /></label>
+          <button class="currency-to-convert-to-btn">
+            <i class="fa-solid fa-dollar-sign fa-3x"></i>
+          </button>
+        </div>
+        
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/8778d7a519.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
