@@ -22,23 +22,22 @@ hr {
   border: none;
   border-radius: 2px;
 }
+input:focus::placeholder {
+  color: transparent;
+}
+
+input:focus {
+  border: 3px solid #cfb53b;
+}
 
 .amount-container {
   margin: 20px;
-  padding: 60px;
+  padding: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
-
-.currency-to-convert-btn {
-  height: 70px;
-  width: 70px;
-  border: 3px solid #cfb53b;
-  border-radius: 50%;
-  cursor: pointer;
 }
 
 .currency-input {
@@ -78,13 +77,35 @@ hr {
   align-items: center;
   flex-direction: row;
   gap: 20px;
-  padding: 60px;
+  padding: 30px;
 }
 
-.currency-to-convert-to-btn {
-  height: 70px;
-  width: 70px;
-  border: 3px solid #cfb53b;
-  border-radius: 50%;
-  cursor: pointer;
+.converted-container p {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  color: black;
+}
+
+.select-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.select-box select {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.exchange-rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.exchange-rate p {
+  padding-bottom: 15px;
 }

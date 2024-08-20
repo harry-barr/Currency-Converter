@@ -12,38 +12,62 @@
       <hr></hr>
     </header>
     <main>
+        <form>
       <section id="amount">
         <div class="amount-container">
-          <button class="currency-to-convert-btn">
-            <i class="fa-solid fa-sterling-sign fa-3x" title="pounds"></i>
-          </button>
+            <div class="select-box">
+                
+            <select class="currency-to-covert">
+                <option value="GBP">GBP</option>
+                <option value="USD">USD</option>
+                <option value="CNY">CNY</option>
+                <option value="EUR">EUR</option>
+              </select>  
+            </div>
           <label for="number-input"
-            ><input type="number" placeholder="Amount" required class="currency-input"
+            ><input type="number" placeholder="Enter Amount" required class="currency-input"
           /></label>
         </div>
       </section>
 
       <section id="converter-button">
         <div class="icon-container">
-         <button class="convert-btn"><i class="fa-solid fa-arrow-right-arrow-left fa-5x"></i></button>
+         <button class="convert-btn">Convert</button>
         </div>
       </section>
 
       <section id="converted-currency">
         <div class="converted-container">
-            <label for="number-input"
-            ><input type="number" placeholder="Result" required class="currency-input"
-          /></label>
-          <button class="currency-to-convert-to-btn">
-            <i class="fa-solid fa-dollar-sign fa-3x"></i>
-          </button>
+            
+          <div class="select-box">
+            
+        <select class="currency-converted-to">
+          <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="CNY">CNY</option>
+            <option value="EUR">EUR</option>
+          </select>  
         </div>
-        
+        </div>
+        <div class="exchange-rate">
+            Exchange Rate:
+  
+        </div>
+    </form>
       </section>
+
+      
+      
+
     </main>
+
+
   </body>
   <script
     src="https://kit.fontawesome.com/8778d7a519.js"
     crossorigin="anonymous"
   ></script>
+  <script src="script.js" type="module"></script>
+  <script src="./countrylist.js"></script>
 </html>
+
